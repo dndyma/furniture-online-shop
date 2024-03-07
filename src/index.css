@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
 .hamburger-line {
   @apply w-[30px] h-[2px] my-2 block bg-dark;
 }
