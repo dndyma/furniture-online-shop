@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -34,10 +35,30 @@ function Navbar() {
         md:static
       md:flex-row md:gap-9 md:items-center md:flex font-semibold`}
       >
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <Link
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={100}
+          style={{ cursor: "pointer" }}
+        >
+          Home
+        </Link>
+        <Link
+          activeClass="active"
+          to="Shopage"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={100}
+          style={{ cursor: "pointer" }}
+        >
+          Shop
+        </Link>
+        <Link href="#">About</Link>
+        <Link href="#">Contact</Link>
       </div>
     </nav>
   );
