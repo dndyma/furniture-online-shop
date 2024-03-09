@@ -2,10 +2,14 @@ import Cards from "./components/Cards";
 function Shoppage() {
   return (
     <main className="mb-20 w-full ">
-      <h1 className="text-center text-dark pt-10 pb-16 text-5xl">
+      <h1
+        className="text-center text-dark pt-10 pb-16 
+      text-3xl
+      md:text-5xl"
+      >
         Our Product
       </h1>
-      <div className="flex flex-wrap gap-y-9 gap-5 justify-evenly">
+      <div className="flex md:flex-row gap-y-5 flex-col flex-wrap md:gap-y-9 md:gap-5 justify-center items-center md:justify-evenly ">
         <Cards
           imgs={"https://source.unsplash.com/random/1920x1080?furniture"}
         />
