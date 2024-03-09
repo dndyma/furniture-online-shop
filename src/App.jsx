@@ -1,3 +1,4 @@
+import Aboutpage from "./Aboutpage";
 import Homepage from "./Homepage";
 import "./index.css";
 import Navbar from "./Navbar";
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Homepage />
       <Shoppage />
+      <Aboutpage />
     </div>
   );
 }
