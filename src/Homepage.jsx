@@ -3,7 +3,7 @@ import TypeIt from "typeit-react";
 function Homepage() {
   return (
     <main className="flex justify-center items-center">
-      <img src="../public/1.jpg" className="object-cover " />
+      <img src="../public/1.jpg" className="object-cover  brightness-[80%]" />
       <div
         className="
       absolute text-white  transition"
