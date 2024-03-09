@@ -10,6 +10,7 @@ export default {
       },
       fontFamily: {
         madimi: ["Madimi One"],
+        poppin: ["Poppins"],
       },
     },
   },
