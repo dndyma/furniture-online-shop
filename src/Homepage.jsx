@@ -6,9 +6,9 @@ function Homepage() {
       <img src="../public/1.jpg" className="object-cover  brightness-[65%]" />
       <div
         className="
-      absolute text-white  transition"
+      absolute transition"
       >
-        <h1 className="text-2xl text-shadow-lg md:text-6xl text-center font-poppin">
+        <h1 className="text-2xl text-white font-extralight text-shadow-lg md:text-6xl text-center font-poppin">
           <TypeIt options={{ loop: true, speed: 70 }}>
             Elegan Dan Minimalis Furnion Menjadi <br /> Nomor Satu DiDunia
           </TypeIt>
