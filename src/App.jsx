@@ -1,11 +1,13 @@
 import Homepage from "./Homepage";
 import "./index.css";
 import Navbar from "./Navbar";
+import Shoppage from "./Shoppage";
 function App() {
   return (
-    <div className="scroll-smooth">
+    <div>
       <Navbar />
       <Homepage />
+      <Shoppage />
     </div>
   );
 }

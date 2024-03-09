@@ -28,7 +28,7 @@ function Navbar() {
         <span className="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
       </button>
       <div
-        className={`flex flex-col mr-3 absolute  gap-5 
+        className={`text-dark flex flex-col mr-3 absolute  gap-5 
         top-[50px] right-0 md:shadow-none shadow-slate-400 shadow-lg bg-white rounded rounded-md p-5
         ${open ? " " : "hidden"}
         md:static
