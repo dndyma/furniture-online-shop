@@ -13,7 +13,6 @@ function Homepage() {
             <span className="font-bold">Elegan</span> Dan Minimalis{" "}
             <span className="font-bold text-yellow-400">Furnion</span> Menjadi{" "}
             <br /> Nomor Satu DiDunia
-            <span className="font-bold">...</span>
           </TypeIt>
         </h1>
       </div>

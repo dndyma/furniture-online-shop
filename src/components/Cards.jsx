@@ -1,7 +1,12 @@
+import { useDispatch } from "react-redux";
+import { increment } from "../features/counter";
+
 function Cards(props) {
   const { imgs } = props;
+  const dispatch = useDispatch();
   return (
     <div
+      onClick={() => dispatch(increment())}
       className="hover:scale-95 transition w-[300px] md:w-[350px] text-dark cursor-pointer flex flex-col  justify-between  rounded-xl overflow-hidden  border-slate-500 shadow-lg
     "
     >

@@ -1,4 +1,5 @@
 import Aboutpage from "./Aboutpage";
+import Contactpage from "./Contactpage";
 import Homepage from "./Homepage";
 import "./index.css";
 import Navbar from "./Navbar";
@@ -10,6 +11,7 @@ function App() {
       <Homepage />
       <Shoppage />
       <Aboutpage />
+      <Contactpage />
     </div>
   );
 }

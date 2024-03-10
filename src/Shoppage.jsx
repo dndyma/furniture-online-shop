@@ -3,11 +3,12 @@ function Shoppage() {
   return (
     <main id="Shopage" className="mb-20 w-full">
       <h1
-        className="text-center text-dark pt-10 pb-16 
+        className="text-center font-bold text-dark pt-10 pb-16 
       text-3xl
       md:text-5xl"
       >
-        Our Product
+        <div className="text-3xl text-yellow-500">Our</div>
+        Product
       </h1>
       <div className="relative flex md:flex-row gap-y-5 flex-col flex-wrap md:gap-y-9 md:gap-5 justify-center items-center md:justify-evenly ">
         <Cards
