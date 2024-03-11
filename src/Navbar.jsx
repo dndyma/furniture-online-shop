@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { Link } from "react-scroll";
 
 function Navbar() {
@@ -8,7 +8,6 @@ function Navbar() {
     setOpen(!open);
   };
   const count = useSelector((state) => state.counter.value);
-  const dispach = useDispatch();
   return (
     <nav className="fixed flex justify-between min-h-[60px]  w-full z-50 bg-white  rounded-sm shadow-md">
       <div className="flex items-center">
@@ -29,7 +28,7 @@ function Navbar() {
       >
         <span className="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
         <span className="hamburger-line transition duration-300 ease-in-out"></span>
-        <span className="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+        <span className="hamburger-line origin-bottom-left transition duration-299 ease-in-out"></span>
       </button>
       <div
         className={`text-dark flex flex-col ml-9  absolute  gap-5 
@@ -60,8 +59,8 @@ function Navbar() {
         >
           Shop
         </Link>
-        <Link href="#">About</Link>
-        <Link href="#">Contact</Link>
+        <Link to="#">About</Link>
+        <Link to="#">Contact</Link>
       </div>
       <div className="flex items-center mr-11 cursor-pointer relative">
         <Link style={{ position: "relative" }}>

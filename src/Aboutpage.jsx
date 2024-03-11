@@ -3,7 +3,7 @@ function Aboutpage() {
     <div className="bg-slate-100 text-dark  mb-9 p-11">
       <div className="flex justify-evenly">
         <div className="max-w-[500px] mt-[70px] max-h-[400px] ">
-          <h1 className="font-bold text-3xl text-center md:text-5xl mb-[60px]">
+          <h1 className="font-bold text-3xl ext-center md:text-5xl mb-[60px]">
             Tentang Toko Ini
           </h1>
           <p className="text-[11px] md:text-lg text-justify">
@@ -23,7 +23,7 @@ function Aboutpage() {
           {" "}
           <img
             src="../public/Profile.png"
-            className="md:block hidden relative  z-10 rounded-md"
+            className="md:block hidden -bottom-[95px] relative z-10 rounded-md"
             width="300"
             height="300"
           />{" "}
