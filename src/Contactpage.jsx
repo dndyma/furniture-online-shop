@@ -2,7 +2,9 @@ function Contactpage() {
   return (
     <div className="p-12 mb-7">
       <div className="text-center pb-12">
-        <h1 className="text-2xl text-yellow-500">Contact</h1>
+        <h1 id="contact" className="text-2xl text-yellow-500">
+          Contact
+        </h1>
         <p className="text-3xl md:text-5xl font-bold text-dark">Hubungi Kami</p>
       </div>
       <div className="m-auto max-w-[800px]">

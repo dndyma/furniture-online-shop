@@ -31,7 +31,7 @@ function Navbar() {
         <span className="hamburger-line origin-bottom-left transition duration-299 ease-in-out"></span>
       </button>
       <div
-        className={`text-dark flex flex-col ml-9  absolute  gap-5 
+        className={`text-dark flex flex-col   absolute  gap-5 
         top-[50px] right-0 md:shadow-none shadow-slate-400 shadow-lg bg-white rounded rounded-md p-5
         ${open ? " " : "hidden"}
         md:static
@@ -59,8 +59,28 @@ function Navbar() {
         >
           Shop
         </Link>
-        <Link to="#">About</Link>
-        <Link to="#">Contact</Link>
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={100}
+          style={{ cursor: "pointer" }}
+        >
+          About
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={100}
+          style={{ cursor: "pointer" }}
+        >
+          Contact
+        </Link>
       </div>
       <div className="flex items-center mr-11 cursor-pointer relative">
         <Link style={{ position: "relative" }}>
