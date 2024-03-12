@@ -27,13 +27,13 @@ function Footer() {
           <div className="w-1/2 mt-9 md:mt-0">
             <h1 className="font-bold text-2xl mb-4">List Product</h1>
             <div className="flex md:flex-row flex-col md:gap-9 md:ml-14">
-              <a href="">meja</a>
-              <a href="">meja</a>
-              <a href="">meja</a>
-              <a href="">meja</a>
-              <a href="">meja</a>
-              <a href="">meja</a>
-              <a href="">meja</a>
+              <a href="#1">Barang Furniture</a>
+              <a href="#2">Kursi</a>
+              <a href="#3">Meja</a>
+              <a href="#4">Design</a>
+              <a href="#5">Interior</a>
+              <a href="#6">Tanaman Interior</a>
+              <a href="#7">Kursi Pekerja</a>
             </div>
           </div>
           <div className="flex flex-col mt-9 md:mr-11 md:mt-0 -ml-1">
